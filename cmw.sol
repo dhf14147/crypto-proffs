@@ -9,7 +9,7 @@ import "@openzeppelin/contracts/security/ReentrancyGuard.sol";s
 
 
 // CriptoMoonWolfToken: Un token ERC20 con funciones de minting, burning, fees, airdrop, pausa y control de acceso basado en roles.
-contract CriptoMoonWolfToken is ERC20, AccessControl, Pausable, ReentrancyGuard {
+contract CriptoMoonWolfToken is ERC20,  AccessControl, Pausable, ReentrancyGuard {
     // Roles para controlar permisos en el contrato.
     bytes32 public constant ADMIN_ROLE = keccak256("ADMIN_ROLE");
     bytes32 public constant DEV_ROLE = keccak256("DEV_ROLE");
