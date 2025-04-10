@@ -5,8 +5,7 @@ pragma solidity 0.8.26;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/AccessControl.sol";
 import "@openzeppelin/contracts/security/Pausable.sol";
-import "@openzeppelin/contracts/security/ReentrancyGuard.sol";s
-
+import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 
 // CriptoMoonWolfToken: Un token ERC20 con funciones de minting, burning, fees, airdrop, pausa y control de acceso basado en roles.
 contract CriptoMoonWolfToken is ERC20,  AccessControl, Pausable, ReentrancyGuard {
